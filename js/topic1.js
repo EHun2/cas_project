@@ -2,7 +2,7 @@ var MCQAnswer;
 
 function MCQ(number) {
     var imageElement = document.getElementById('MCQcontainer');
-    
+
     if (number === 1) {
         imageElement.src = '/MCQs/Topic1/1.png';
         MCQAnswer = 'C';
